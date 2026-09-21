@@ -1,0 +1,13 @@
+public class Ejercicio15 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double base = 16;
+        double altura = 11;
+
+        // Fórmula: A = (base * altura) / 2
+        double area = (base * altura) / 2.0;
+
+        // Mostrar resultado
+        System.out.println("Área del triángulo: " + area + " m²");
+    }
+}

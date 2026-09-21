@@ -1,0 +1,14 @@
+public class Ejercicio16 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double B = 20; // Base mayor
+        double b = 12; // Base menor
+        double h = 8;  // Altura
+
+        // Fórmula: A = ((B + b) * h) / 2
+        double area = ((B + b) * h) / 2.0;
+
+        // Mostrar resultado
+        System.out.println("Área del trapecio: " + area + " m²");
+    }
+}

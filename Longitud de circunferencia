@@ -1,0 +1,12 @@
+public class Ejercicio19 {
+    public static void main(String[] args) {
+        // Asignación de variable
+        double radio = 8;
+
+        // Fórmula: L = 2 * Math.PI * radio
+        double L = 2 * Math.PI * radio;
+
+        // Mostrar resultado
+        System.out.println("Longitud de circunferencia: " + L + " m");
+    }
+}

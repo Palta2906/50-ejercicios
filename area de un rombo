@@ -1,0 +1,13 @@
+public class Ejercicio17 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double D = 18; // Diagonal mayor
+        double d = 10; // Diagonal menor
+
+        // Fórmula: A = (D * d) / 2
+        double area = (D * d) / 2.0;
+
+        // Mostrar resultado
+        System.out.println("Área del rombo: " + area + " m²");
+    }
+}

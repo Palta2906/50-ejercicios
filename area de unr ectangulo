@@ -1,0 +1,13 @@
+public class Ejercicio13 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double base = 18;
+        double altura = 7;
+
+        // Fórmula: A = base * altura
+        double area = base * altura;
+
+        // Mostrar resultado
+        System.out.println("Área del rectángulo: " + area + " m²");
+    }
+}

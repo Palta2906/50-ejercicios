@@ -1,0 +1,12 @@
+public class Ejercicio18 {
+    public static void main(String[] args) {
+        // Dato asignado directamente
+        double radio = 6;
+
+        // Fórmula: A = Math.PI * radio * radio
+        double area = Math.PI * radio * radio;
+
+        // Mostrar resultado
+        System.out.println("Área del círculo: " + area + " m²");
+    }
+}

@@ -1,0 +1,12 @@
+public class Ejercicio20 {
+    public static void main(String[] args) {
+        // Asignación de variable
+        double arista = 5;
+
+        // Fórmula: V = arista * arista * arista
+        double V = arista * arista * arista;
+
+        // Mostrar resultado
+        System.out.println("Volumen del cubo: " + V + " m³");
+    }
+}

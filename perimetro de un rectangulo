@@ -1,0 +1,13 @@
+public class Ejercicio14 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double largo = 22;
+        double ancho = 9;
+
+        // Fórmula: P = 2 * (largo + ancho)
+        double perimetro = 2 * (largo + ancho);
+
+        // Mostrar resultado
+        System.out.println("Perímetro del rectángulo: " + perimetro + " m");
+    }
+}

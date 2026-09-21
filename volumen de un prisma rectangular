@@ -1,0 +1,14 @@
+public class Ejercicio21 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double largo = 12;
+        double ancho = 6;
+        double altura = 4;
+
+        // Fórmula: V = largo * ancho * altura
+        double V = largo * ancho * altura;
+
+        // Mostrar resultado
+        System.out.println("Volumen del prisma rectangular: " + V + " m³");
+    }
+}

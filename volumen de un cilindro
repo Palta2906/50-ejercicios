@@ -1,0 +1,13 @@
+public class Ejercicio22 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double radio = 4;
+        double altura = 10;
+
+        // Fórmula: V = Math.PI * radio * radio * altura
+        double V = Math.PI * radio * radio * altura;
+
+        // Mostrar resultado
+        System.out.println("Volumen del cilindro: " + V + " m³");
+    }
+}

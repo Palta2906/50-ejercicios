@@ -1,0 +1,12 @@
+public class Ejercicio11 {
+    public static void main(String[] args) {
+        // Lado asignado directamente
+        double lado = 9;
+
+        // Fórmula: A = lado * lado
+        double area = lado * lado;
+
+        // Mostrar resultado
+        System.out.println("Área del cuadrado: " + area + " m²");
+    }
+}

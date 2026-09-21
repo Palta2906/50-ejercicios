@@ -1,0 +1,12 @@
+public class Ejercicio12 {
+    public static void main(String[] args) {
+        // Lado asignado directamente
+        double lado = 12;
+
+        // Fórmula: P = 4 * lado
+        double perimetro = 4 * lado;
+
+        // Mostrar resultado
+        System.out.println("Perímetro del cuadrado: " + perimetro + " m");
+    }
+}
