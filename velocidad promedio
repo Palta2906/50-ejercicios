@@ -1,0 +1,13 @@
+public class Ejercicio24 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double distancia = 540;
+        double tiempo = 6;
+
+        // Fórmula: V = distancia / tiempo
+        double V = distancia / tiempo;
+
+        // Mostrar resultado
+        System.out.println("Velocidad promedio: " + V + " km/h");
+    }
+}

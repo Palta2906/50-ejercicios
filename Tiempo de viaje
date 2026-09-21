@@ -1,0 +1,13 @@
+public class Ejercicio25 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double distancia = 360;
+        double velocidad = 80;
+
+        // Fórmula: T = distancia / velocidad
+        double T = distancia / velocidad;
+
+        // Mostrar resultado
+        System.out.println("Tiempo de viaje: " + T + " horas");
+    }
+}

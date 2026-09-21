@@ -1,0 +1,13 @@
+public class Ejercicio23 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double velocidad = 85;
+        double tiempo = 3.5;
+
+        // Fórmula: D = velocidad * tiempo
+        double D = velocidad * tiempo;
+
+        // Mostrar resultado
+        System.out.println("Distancia recorrida: " + D + " km");
+    }
+}

@@ -1,0 +1,14 @@
+public class Ejercicio26 {
+    public static void main(String[] args) {
+        // Dato asignado directamente
+        double horas = 7.5;
+
+        // Conversión a minutos y segundos mediante fórmulas
+        double minutos = horas * 60;
+        double segundos = horas * 3600;
+
+        // Mostrar resultados
+        System.out.println("Minutos: " + minutos);
+        System.out.println("Segundos: " + segundos);
+    }
+}

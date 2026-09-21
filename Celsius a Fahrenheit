@@ -1,0 +1,12 @@
+public class Ejercicio28 {
+    public static void main(String[] args) {
+        // Asignación de variable
+        double C = 28;
+
+        // Fórmula: F = (C * 9.0 / 5.0) + 32
+        double F = (C * 9.0 / 5.0) + 32;
+
+        // Mostrar resultado
+        System.out.println("Temperatura en Fahrenheit: " + F + " °F");
+    }
+}
