@@ -1,0 +1,20 @@
+public class Ejercicio35 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double precio = 1600;
+        double porcentajeDescuento = 0.10; // 10%
+        double porcentajeIGV = 0.18;       // 18%
+
+        // Cálculos (primero el descuento, después el IGV)
+        double montoDescuento = precio * porcentajeDescuento;
+        double subtotal = precio - montoDescuento;
+        double montoIGV = subtotal * porcentajeIGV;
+        double precioTotal = subtotal + montoIGV;
+
+        // Mostrar resultados
+        System.out.println("Monto del descuento: S/ " + montoDescuento);
+        System.out.println("Subtotal con descuento: S/ " + subtotal);
+        System.out.println("Monto del IGV: S/ " + montoIGV);
+        System.out.println("Precio total final: S/ " + precioTotal);
+    }
+}

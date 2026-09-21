@@ -1,0 +1,15 @@
+public class Ejercicio40 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double costoTotal = 4625;
+        double porcentajeGanancia = 0.25; // 25%
+
+        // Cálculos
+        double ganancia = costoTotal * porcentajeGanancia;
+        double precioVenta = costoTotal + ganancia;
+
+        // Mostrar resultados
+        System.out.println("Ganancia: S/ " + ganancia);
+        System.out.println("Precio de venta: S/ " + precioVenta);
+    }
+}

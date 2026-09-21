@@ -1,0 +1,16 @@
+public class Ejercicio37 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double C = 5000; // Capital
+        double r = 0.08;  // Tasa anual (8%)
+        double t = 3;     // Tiempo en años
+
+        // Fórmulas: I = C * r * t y M = C + I
+        double I = C * r * t;
+        double M = C + I;
+
+        // Mostrar resultados
+        System.out.println("Interés (I): S/ " + I);
+        System.out.println("Monto total (M): S/ " + M);
+    }
+}

@@ -1,0 +1,13 @@
+public class Ejercicio32 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        int cantidad = 18;
+        double precioUnitario = 7.80;
+
+        // Cálculo del importe total
+        double importeTotal = cantidad * precioUnitario;
+
+        // Mostrar resultado
+        System.out.println("Importe total: S/ " + importeTotal);
+    }
+}

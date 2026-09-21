@@ -1,0 +1,15 @@
+public class Ejercicio34 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double valorVenta = 850;
+        double porcentajeIGV = 0.18; // 18%
+
+        // Cálculos
+        double montoIGV = valorVenta * porcentajeIGV;
+        double precioTotal = valorVenta + montoIGV;
+
+        // Mostrar resultados
+        System.out.println("Monto del IGV: S/ " + montoIGV);
+        System.out.println("Precio total: S/ " + precioTotal);
+    }
+}

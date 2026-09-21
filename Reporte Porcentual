@@ -1,0 +1,16 @@
+public class Ejercicio38 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double total = 9000;
+
+        // Cálculos de reparto porcentual
+        double participante1 = total * 0.40; // 40%
+        double participante2 = total * 0.35; // 35%
+        double participante3 = total * 0.25; // 25%
+
+        // Mostrar resultados
+        System.out.println("Participante 1 (40%): S/ " + participante1);
+        System.out.println("Participante 2 (35%): S/ " + participante2);
+        System.out.println("Participante 3 (25%): S/ " + participante3);
+    }
+}

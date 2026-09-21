@@ -1,0 +1,13 @@
+public class Ejercicio39 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        int unidades = 250;
+        double costoUnitario = 18.50;
+
+        // Cálculo del costo total
+        double costoTotal = unidades * costoUnitario;
+
+        // Mostrar resultado
+        System.out.println("Costo total: S/ " + costoTotal);
+    }
+}

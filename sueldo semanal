@@ -1,0 +1,13 @@
+public class Ejercicio31 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double pagoPorHora = 22.50;
+        int horasTrabajadas = 44;
+
+        // Fórmula: sueldo = pago * horas
+        double sueldo = pagoPorHora * horasTrabajadas;
+
+        // Mostrar resultado
+        System.out.println("Sueldo semanal: S/ " + sueldo);
+    }
+}

@@ -1,0 +1,16 @@
+public class Ejercicio36 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double venta = 12500;
+        double porcentajeComision = 0.06; // 6%
+        double sueldoBase = 1400;
+
+        // Cálculos
+        double comision = venta * porcentajeComision;
+        double ingresoTotal = sueldoBase + comision;
+
+        // Mostrar resultados
+        System.out.println("Comisión: S/ " + comision);
+        System.out.println("Ingreso total: S/ " + ingresoTotal);
+    }
+}

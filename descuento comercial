@@ -1,0 +1,15 @@
+public class Ejercicio33 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double precio = 1200;
+        double porcentajeDescuento = 0.15; // 15%
+
+        // Cálculos
+        double montoDescuento = precio * porcentajeDescuento;
+        double precioFinal = precio - montoDescuento;
+
+        // Mostrar resultados
+        System.out.println("Monto del descuento: S/ " + montoDescuento);
+        System.out.println("Precio final: S/ " + precioFinal);
+    }
+}
