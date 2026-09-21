@@ -1,0 +1,14 @@
+public class Ejercicio9 {
+    public static void main(String[] args) {
+        // Variables declaradas
+        int a = 20;
+        int b = 6;
+        int c = 3;
+
+        // Cálculo según la fórmula R = (a - b) * (a + c)
+        int R = (a - b) * (a + c);
+
+        // Mostrar resultado
+        System.out.println("R: " + R);
+    }
+}

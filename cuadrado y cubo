@@ -1,0 +1,14 @@
+public class Ejercicio5 {
+    public static void main(String[] args) {
+        // Variable declarada
+        int numero = 7;
+
+        // Cálculos mediante multiplicaciones
+        int cuadrado = numero * numero;
+        int cubo = numero * numero * numero;
+
+        // Mostrar resultados
+        System.out.println("Cuadrado: " + cuadrado);
+        System.out.println("Cubo: " + cubo);
+    }
+}

@@ -1,0 +1,16 @@
+public class Ejercicio4 {
+    public static void main(String[] args) {
+        // Variable declarada
+        int numero = 24;
+
+        // Cálculos
+        int doble = numero * 2;
+        int triple = numero * 3;
+        double mitad = numero / 2.0;
+
+        // Mostrar resultados
+        System.out.println("Doble: " + doble);
+        System.out.println("Triple: " + triple);
+        System.out.println("Mitad: " + mitad);
+    }
+}

@@ -1,0 +1,14 @@
+public class Ejercicio6 {
+    public static void main(String[] args) {
+        // Variables declaradas para las notas
+        double nota1 = 14;
+        double nota2 = 17;
+        double nota3 = 16;
+
+        // Cálculo del promedio aritmético
+        double promedio = (nota1 + nota2 + nota3) / 3.0;
+
+        // Mostrar resultado
+        System.out.println("Promedio: " + promedio);
+    }
+}

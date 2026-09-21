@@ -1,0 +1,15 @@
+public class Ejercicio2 {
+    public static void main(String[] args) {
+        // Variables declaradas directamente
+        int a = 36;
+        int b = 6;
+
+        // Cálculos
+        int producto = a * b;
+        int cociente = a / b;
+
+        // Mostrar resultados
+        System.out.println("Producto: " + producto);
+        System.out.println("Cociente: " + cociente);
+    }
+}

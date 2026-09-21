@@ -1,0 +1,15 @@
+public class Ejercicio7 {
+    public static void main(String[] args) {
+        // Variables declaradas para las prácticas
+        double practica1 = 15;
+        double practica2 = 13;
+        double practica3 = 18;
+        double practica4 = 16;
+
+        // Cálculo del promedio
+        double promedio = (practica1 + practica2 + practica3 + practica4) / 4.0;
+
+        // Mostrar resultado
+        System.out.println("Promedio: " + promedio);
+    }
+}

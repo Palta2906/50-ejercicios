@@ -1,0 +1,14 @@
+public class Ejercicio8 {
+    public static void main(String[] args) {
+        // Variables declaradas
+        double a = 12;
+        double b = 8;
+        double c = 4;
+
+        // Cálculo según la fórmula R = (a + b) * c / 2
+        double R = (a + b) * c / 2;
+
+        // Mostrar resultado
+        System.out.println("R: " + R);
+    }
+}
