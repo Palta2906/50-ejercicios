@@ -1,0 +1,13 @@
+public class Ejercicio43 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double fuerza = 150;
+        double distancia = 18;
+
+        // Fórmula: W = fuerza * distancia
+        double W = fuerza * distancia;
+
+        // Mostrar resultado
+        System.out.println("Trabajo mecánico: " + W + " J");
+    }
+}

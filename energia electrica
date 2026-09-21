@@ -1,0 +1,15 @@
+public class Ejercicio46 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double potencia = 1200;
+        double tiempo = 6;
+
+        // Cálculos
+        double energiaWh = potencia * tiempo;
+        double energiaKWh = energiaWh / 1000.0;
+
+        // Mostrar resultados
+        System.out.println("Energía en Wh: " + energiaWh + " Wh");
+        System.out.println("Energía en kWh: " + energiaKWh + " kWh");
+    }
+}

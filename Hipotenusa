@@ -1,0 +1,13 @@
+public class Ejercicio48 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double a = 9;
+        double b = 12;
+
+        // Fórmula: h = Math.sqrt(a*a + b*b)
+        double h = Math.sqrt(a * a + b * b);
+
+        // Mostrar resultado
+        System.out.println("Hipotenusa: " + h + " m");
+    }
+}

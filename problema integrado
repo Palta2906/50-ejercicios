@@ -1,0 +1,25 @@
+public class Ejercicio50 {
+    public static void main(String[] args) {
+        // Datos de entrada
+        int unidades = 300;
+        double costoUnitario = 16.80;
+        double porcentajeGanancia = 0.30; // 30%
+        double porcentajeIGV = 0.18;      // 18%
+
+        // Cálculos
+        double costoTotal = unidades * costoUnitario;
+        double ganancia = costoTotal * porcentajeGanancia;
+        double valorVenta = costoTotal + ganancia;
+        double igv = valorVenta * porcentajeIGV;
+        double precioTotal = valorVenta + igv;
+        double precioFinalPorUnidad = precioTotal / unidades;
+
+        // Mostrar resultados
+        System.out.println("Costo total: S/ " + costoTotal);
+        System.out.println("Ganancia: S/ " + ganancia);
+        System.out.println("Valor de venta: S/ " + valorVenta);
+        System.out.println("IGV (18%): S/ " + igv);
+        System.out.println("Precio total: S/ " + precioTotal);
+        System.out.println("Precio final por unidad: S/ " + precioFinalPorUnidad);
+    }
+}

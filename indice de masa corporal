@@ -1,0 +1,13 @@
+public class Ejercicio47 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double peso = 72;
+        double altura = 1.74;
+
+        // Fórmula: IMC = peso / (altura * altura)
+        double IMC = peso / (altura * altura);
+
+        // Mostrar resultado
+        System.out.println("IMC: " + IMC);
+    }
+}

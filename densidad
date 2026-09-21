@@ -1,0 +1,13 @@
+public class Ejercicio41 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double masa = 540;
+        double volumen = 60;
+
+        // Fórmula: densidad = masa / volumen
+        double densidad = masa / volumen;
+
+        // Mostrar resultado
+        System.out.println("Densidad: " + densidad + " g/cm³");
+    }
+}

@@ -1,0 +1,13 @@
+public class Ejercicio42 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double fuerza = 720;
+        double area = 24;
+
+        // Fórmula: P = fuerza / area
+        double P = fuerza / area;
+
+        // Mostrar resultado
+        System.out.println("Presión: " + P + " Pa");
+    }
+}

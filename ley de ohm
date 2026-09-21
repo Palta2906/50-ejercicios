@@ -1,0 +1,13 @@
+public class Ejercicio44 {
+    public static void main(String[] args) {
+        // Datos asignados directamente
+        double V = 220;
+        double R = 44;
+
+        // Fórmula: I = V / R
+        double I = V / R;
+
+        // Mostrar resultado
+        System.out.println("Intensidad de corriente: " + I + " A");
+    }
+}
